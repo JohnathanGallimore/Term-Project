@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bait Variety</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to John's Outdoorsman Store!!</h1>
+        <p>Your One-Stop Shop for Fishing Supplies</p>
+    </header>
+
+    <nav>
+        <div class="tabs">
+            <a href="welcome.html" class="tab">Home</a>
+            <a href="products.html" class="tab">Products</a>
+            <a href="shoppingcart.html" class="tab">Shopping Cart</a>
+            <a href="#orders" class="tab">Order History</a>
+            <a href="admin.html" class="tab">About Us and Other Links</a>
+
+        </div>
+    </nav>
+
+<div class="bait-variety-container">
+    <div id="baitVariety" class="product-category">
+        <h2>Bait Variety</h2>
+    
+        <div class="bait-section">
+            <h3>Hooks</h3>
+            <div class="product-bait">
+                <img src="images/hooks1.jpg" alt="Bait Vareity">
+                <h3>Crappie/Bream Hook Set</h3>
+                <p>Smaller hooks for smaller fish, set includes a gold hook and bronze.</p>
+                <p>Price: $10.99</p>
+                <button class="add-to-cart" onclick="addToCart('Bait Vareity 1', 10.99)">Add to Cart</button>
+            </div>
+
+        </div>
+        <div class="bait-section">
+            <h3>Weights</h3>
+            <div class="product-baits">
+
+            </div>
+        </div>
+        
+        <div class="bait-section">
+            <h3>Top Water</h3>
+            <div class="product-bait">
+                <img src="images/topwaterFrog.jpg" alt="Bait Vareity">
+                <h3>Top Water Frog</h3>
+                <p>Very common bait for bass. Literally sits ontop of the water</p>
+                <p>Price: $6.99</p>
+                <button class="add-to-cart" onclick="addToCart('Top water frog', 6.99)">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-bait">
+            <img src="images/rebelpopr.jpg" alt="Bait Vareity">
+            <h3>Rebel Pop R</h3>
+            <p>Another common found bait. One of the more popluar ones on the market</p>
+            <p>Price: $6.50</p>
+            <button class="add-to-cart" onclick="addToCart('Rebel Pop R', 6.50)">Add to Cart</button>
+        </div>
+
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Outdoorsman Store. All rights reseved.</p>
+</footer>
+
+<script src="scripts.js" defer></script>
+</html>

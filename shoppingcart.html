@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to John's Outdoorsman Store!!</h1>
+        <p>Your One Stop Shop for Fishing Supplies.</p>
+    </header>
+
+    <nav>
+        <div class="tabs">
+            <a href="welcome.html" class="tab">Home</a>
+            <a href="products.html" class="tab">Products</a>
+            <a href="shoppingcart.html" class="tab">Shopping Cart</a>
+            <a href="#orders" class="tab">Order History</a>
+            <a href="admin.html" class="tab">About Us and Other Links</a>
+
+        </div>
+    </nav>
+
+    <div class="shopping-cart-page">
+        <h2>Your Shopping Cart</h2>
+
+        <div class="customer-info">
+            <h3>Customer Information</h3>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+            <div class="checkbox-group">
+                <input type="checkbox" id="returningCustomer" name="returnigCustomer">
+                <label for="returningCustomer">Returning Customer?</label>
+                <span class="checkbox-instructions">Check if you are a returning customer</span>
+            </div>
+
+            <div class="checkbox-group">
+                <input type="checkbox" id="newCustomer" name="newCustomer">
+                <label for="newCustomer">New Customer?</label>
+                <span class="checkbox-instructions">Check if you are a new customer</span>
+            </div>
+                
+                <label for="address">Address:</label>
+                <input type="text" id="street" name="street" placeholder="Street" required>
+                <input type="text" id="state" name="state" placeholder="State" required>
+                <input type="text" id="zip" name="zip" placeholder="Zip Code" required>
+
+                <button type="submit">Proceed to Checkout</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Outdoorsman Store. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"defer></script>
+</body>
+</html>
