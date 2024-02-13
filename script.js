@@ -52,6 +52,9 @@ function searchAndNavigate(){
         "reels":"reelsVariety.html",
         "bait":"baitVariety.html",
         "tackle":"baitVariety.html",
+        "license":"Licenses.html",
+        "fishing licenses":"Licenses.html",
+        "boating licenses":"Licenses.html"
     };
 
     if(productPages.hasOwnProperty(query)){

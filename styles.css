@@ -97,7 +97,7 @@ nav{
 }
 
 .cart-item p{
-    color: #666;
+    color: white;
 }
 
 .cart-item button{
@@ -171,12 +171,29 @@ nav{
     height: auto;
 }
 
-.reels-vareity-container{
+.product-rods-container{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    
+}
+
+.product-rods-container img{
+    max-width: 100%;
+    height: auto;
+}
+
+.product-reels{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.product-reels img{
+    max-width: 100%;
+    margin-bottom: 10px;
 }
 
 .product-container{
@@ -228,20 +245,6 @@ nav{
     background-color: #45a049;
 }
 
-.product-variety{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-    padding: 20px;
-}
-.product-rods{
-    text-align: center;
-}
-
-.product-reels{
-    text-align: center;
-}
-
 .back-to-products{
     margin-top: 10px;
 }
@@ -289,20 +292,28 @@ button:hover{
     background-color: grey;
 }
 
-.bait-variety-container{
-    display: flex;
+.bait-section{
     padding: 20px;
 }
 
-.bait.section{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
+.bait-category{
+    margin-bottom: 30px;
 }
 
-.products-bait{
-    justify-content: space-around;
+.product-container-bait{
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    margin-right: 20px;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.product-container img {
+    max-width: 100%;
+    height: auto;
 }
 
 .links{
@@ -323,4 +334,20 @@ ul{
 ul li{
     padding-left: 20px;
     margin-bottom: 10px
+}
+
+.license-container img{
+    display: block;
+    margin: 0 auto;
+}
+.license-section form{
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.license-section{
+    text-align: center;
+    font-size: 18px;
+    color: white;
 }

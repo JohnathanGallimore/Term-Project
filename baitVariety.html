@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bait Variety</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
 </head>
 
 <body>
@@ -26,54 +27,98 @@
         </div>
     </nav>
 
-<div class="bait-variety-container">
-    <div id="baitVariety" class="product-category">
+<div class="bait-section">
         <h2>Bait Variety</h2>
     
-        <div class="bait-section">
+        <div class="bait-category">
             <h3>Hooks</h3>
-            <div class="product-bait">
-                <img src="images/hooks1.jpg" alt="Bait Vareity">
+            <div class="product-container-bait">
+                <img src="images/hooks1.jpg" alt="Crappie hook Vareity"> <!--Came from Google-->
                 <h3>Crappie/Bream Hook Set</h3>
                 <p>Smaller hooks for smaller fish, set includes a gold hook and bronze.</p>
-                <p>Price: $10.99</p>
-                <button class="add-to-cart" onclick="addToCart('Bait Vareity 1', 10.99)">Add to Cart</button>
+                <p>Price: $6.99</p>
+                <button class="add-to-cart" onclick="addToCart('Hook Vareity 1', 6.99)">Add to Cart</button>
             </div>
 
-        </div>
-        <div class="bait-section">
-            <h3>Weights</h3>
-            <div class="product-baits">
+            <div class="product-container-bait">
+                <img src="images/basshooks.jpg" alt="Bass hook Vareity"> <!--Came from Google-->
+                <h3>Bass Hook Set</h3>
+                <p>Larger hook, used for largemouth or small mouth bass. Good for other fish of similiar size.</p>
+                <p>Price: $6.99</p>
+                <button class="add-to-cart" onclick="addToCart('Hook Vareity 2', 6.99)">Add to Cart</button>
+            </div>
 
+            <div class="product-container-bait">
+                <img src="images/catfishing hooks.jpg" alt="Catfish hook Vareity"> <!--Came from Google-->
+                <h3>Catfish Hook Set</h3>
+                <p>Larger hooks, larger fish. Made for catfish and fish of similiar size.</p>
+                <p>Price: $9.99</p>
+                <button class="add-to-cart" onclick="addToCart('Hook Vareity 3', 9.99)">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="bait-category">
+            <h3>Live Bait</h3>
+            <div class="product-container-bait">
+                <img src="images/worms.jpg" alt="Fishing worms"> <!--Came from Google-->
+                <h3>Cup of Worms</h3>
+                <p>Live fishing worms.</p>
+                <p>Price: $4.99</p>
+                <button class="add-to-cart" onclick="addToCart('Live Bait Variety 1', 4.99)">Add to Cart</button>
+            </div>
+
+            <div class="product-container-bait">
+                <img src="images/minnows.jpg" alt="Live Minnows"> <!--Came from Google-->
+                <h3>Live Minnows</h3>
+                <p>Live Minnows</p>
+                <p>Price: $3 a dozen</p>
+                <button class="add-to-cart" onclick="addToCart('Live Bait Variety 2', 3)">Add to Cart</button>
+            </div>
+
+            <div class="product-container-bait">
+                <img src="images/shad.jpg" alt="Baby Shad"> <!--Came from Google-->
+                <h3>Baby Shad</h3>
+                <p>Baby Shad, used for larger species of fish</p>
+                <p>Price: $5.99</p>
+                <button class="add-to-cart" onclick="addToCart('Live Bait Variety 3', 5.99)">Add to Cart</button>
             </div>
         </div>
         
-        <div class="bait-section">
+        <div class="bait-category">
             <h3>Top Water</h3>
-            <div class="product-bait">
-                <img src="images/topwaterFrog.jpg" alt="Bait Vareity">
-                <h3>Top Water Frog</h3>
-                <p>Very common bait for bass. Literally sits ontop of the water</p>
+            <div class="product-container-bait">
+                <img src="images/topwaterFrog.jpg" alt="Bait Vareity"> <!--Came from Google-->
+                 <h3>Top Water Frog</h3>
+                <p>Very common bait for bass. Literally sits ontop of the water, until you reel it back in, then has motion</p>
                 <p>Price: $6.99</p>
                 <button class="add-to-cart" onclick="addToCart('Top water frog', 6.99)">Add to Cart</button>
             </div>
-        </div>
+            
+            <div class="product-container-bait">
+                <img src="images/rebelpopr.jpg" alt="Bait Vareity"> <!--Came from Google-->
+                <h3>Rebel Pop R</h3>
+                <p>Another common found bait. One of the more popluar ones on the market</p>
+                <p>Price: $6.50</p>
+                <button class="add-to-cart" onclick="addToCart('Rebel Pop R', 6.50)">Add to Cart</button>
+            </div>
 
-        <div class="product-bait">
-            <img src="images/rebelpopr.jpg" alt="Bait Vareity">
-            <h3>Rebel Pop R</h3>
-            <p>Another common found bait. One of the more popluar ones on the market</p>
-            <p>Price: $6.50</p>
-            <button class="add-to-cart" onclick="addToCart('Rebel Pop R', 6.50)">Add to Cart</button>
-        </div>
+            <div class="product-container-bait">
+                <img src="images/whopper.jpg" alt="Whopper Plopper"> <!--Came from Google-->
+                <h3>Whopper Plopper</h3>
+                <p>Becoming more popluar by Professionals. Another popular lure on the market. </p>
+                <p>Price: $11.99</p>
+                <button class="add-to-cart" onclick="addToCart('Whopper Plopper', 11.99)">Add to Cart</button>
+            </div>
+
+            </div>
 
         </div>
     </div>
 </div>
+</body>
 
 <footer>
     <p>&copy; 2024 Outdoorsman Store. All rights reseved.</p>
 </footer>
 
-<script src="scripts.js" defer></script>
 </html>

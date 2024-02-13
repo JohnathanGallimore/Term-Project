@@ -38,7 +38,7 @@
                 <input type="email" id="email" name="email" required>
 
             <div class="checkbox-group">
-                <input type="checkbox" id="returningCustomer" name="returnigCustomer">
+                <input type="checkbox" id="returningCustomer" name="returningCustomer">
                 <label for="returningCustomer">Returning Customer?</label>
                 <span class="checkbox-instructions">Check if you are a returning customer</span>
             </div>
@@ -53,9 +53,45 @@
                 <input type="text" id="street" name="street" placeholder="Street" required>
                 <input type="text" id="state" name="state" placeholder="State" required>
                 <input type="text" id="zip" name="zip" placeholder="Zip Code" required>
-
-                <button type="submit">Proceed to Checkout</button>
             </form>
+
+            <section class="cart-items">
+                <div class="cart-item">
+                    <img src="images/reel1.jpg" alt="Item 1"> <!--Came from Google-->
+                    <div class="item-details">
+                        <h2>Item 1</h2>
+                        <p>Price:$23.99</p>
+                        <label for="quantity1">Quantity:</label>
+                        <input type="number" id="quantity1" name="quantity1" value="1" min="1">
+                        <button onclick="updateQuantity('quantity1')">Update Quantity</button>
+                        <button onclick="removeItem('item1')">Remove Item</button>
+                    </div>
+                </div>
+                
+                <div class="cart-item">
+                    <img src="images/rebelpopr.jpg" alt="Item 2"> <!--Came from Google-->
+                    <div class="item-details">
+                        <h2>Item 2</h2>
+                        <p>Price:$6.50</p>
+                        <label for="quantity2">Quantity:</label>
+                        <input type="number" id="quantity2" name="quantity2" value="2" min="1">
+                        <button onclick="updateQuantity('quantity2')">Update Quantity</button>
+                        <button onclick="removeItem('item2')">Remove Item</button>
+                    </div>                 
+                </div>
+            </section>
+
+            <section class="totals">
+                <h2>Cart Totals</h2>
+                <p>Total for Item 1: $23.99</p>
+                <p>Total for Item 2: $6.50</p>
+                <p>Subtotal: $30.49</p>
+                <p>Tax ($6.75%): $2.70</p>
+                <p>Delivery Fee: $15.00</p>
+                <p>Total (including tax and delivery):$48.19</p>
+            </section>
+
+            <button onclick="checkout()">Proceed to Checkout</button>
         </div>
     </div>
 

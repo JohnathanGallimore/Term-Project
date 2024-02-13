@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width. initial-scale=1.0">
+    <title>Licenses and Regulations</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to John's Outdoorsman Store!!</h1>
+        <p>Your One Stop Shop for Fishing Supplies.</p>
+    </header>
+
+    <nav>
+        <div class="tabs">
+            <a href="welcome.html" class="tab">Home</a>
+            <a href="products.html" class="tab">Products</a>
+            <a href="shoppingCart.html" class="tab">Shopping Cart</a>
+            <a href="#orders" class="tab">Order History</a>
+            <a href="admin.html" class="tab">About Us and Other Links</a>
+
+        </div>
+    </nav>
+
+    <div class="license-container">
+        <h2>License and Regulations</h2>
+
+    <section class="license-section">
+        <h2>Order New Fishing License</h2>
+        <img src="images/fishinglicense.jpg" atl="Fishing License"> <!--Came from Google-->
+        <h3>Fishing Licenses Options:</h3>
+        <p>10 day Fishing License, starting at $9 for residents</p>
+        <p>10 day Fishing License, starting at $23 for nonresidents</p>
+        <p>Annual Inland Fishing License, starting at $25 for residents</p>
+        <p>Annual Inland Fishing License, starting at $45 for nonresidents</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="address">Address:</label>
+                <input type="text" id="street" name="street" placeholder="Street" required>
+                <input type="text" id="state" name="state" placeholder="State" required>
+                <input type="text" id="zip" name="zip" placeholder="Zip Code" required>
+
+            <label for="wildlife-number">Wildlife Number:</label>
+            <input type="text" id="wildlife-number" name="wildlife-number" required>
+
+            <label for="social security number">Social Security Number:</label>
+            <input type="text" id="ssn" name="ssn" required>
+
+            <div class="checkbox-group">
+                <input type="checkbox" id="10 day Fishing License" name="residents">
+                <label for="10 day Fishing License">10 day Fishing License</label>
+                <span class="checkbox-instructions">Select here</span>
+            </div>
+
+            <div class="checkbox-group">
+                <input type="checkbox" id="10 day Fishing License nonresidents" name="nonresidents">
+                <label for="10 day Fishing Licenese nonresidents">10 day Fishing License (nonresidents)</label>
+                <span class="checkbox-instructions">Select here</span>
+            </div>
+
+            <div class="checkbox-group">
+                <input type="checkbox" id="Annual Inland Fishing License" name="residents">
+                <label for="Annual Inland Fishing License">Annual Inland Fishing License</label>
+                <span class="checkbox-instructions">Select here</span>
+            </div>
+
+            <div class="checkbox-group">
+                <input type="checkbox" id="Annual Inland Fishing Licenese nonresidents" name="nonresidents">
+                <label for="Annual Inland Fishing Licenese nonresidents">Annual Inland Fishing License (nonresidents)</label>
+                <span class="checkbox-instructions">Select here</span>
+            </div>
+
+            <button type="submit">Proceed to Checkout</button>
+        </form>
+    </section>
+
+    <section class="license-section">
+        <h2>Update Fishing License</h2>
+        <img src="images/license.jpg" alt="Fishing License"> <!--Came from Google-->
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="address">Address:</label>
+                <input type="text" id="street" name="street" placeholder="Street" required>
+                <input type="text" id="state" name="state" placeholder="State" required>
+                <input type="text" id="zip" name="zip" placeholder="Zip Code" required>
+
+            <label for="wildlife-number">Wildlife Number:</label>
+            <input type="text" id="wildlife-number" name="wildlife-number" required>
+
+            <label for="social security number">Social Security Number:</label>
+            <input type="text" id="ssn" name="ssn" required>
+
+            <button type="submit">Proceed to Checkout</button>
+        </form>
+    </section>
+
+    <section class="license-section">
+        <h2>Obtain Boating License</h2>
+        <img src="images/boat.jpg" atl="Boating License"> <!--Came from Google-->
+        <h3>Boating License Options:</h3>
+        <p>Once a year purchase.</p>
+        <p>Price: $34.99</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="address">Address:</label>
+                <input type="text" id="street" name="street" placeholder="Street" required>
+                <input type="text" id="state" name="state" placeholder="State" required>
+                <input type="text" id="zip" name="zip" placeholder="Zip Code" required>
+
+            <label for="wildlife-number">Wildlife Number:</label>
+            <input type="text" id="wildlife-number" name="wildlife-number" required>
+
+            <label for="social security number">Social Security Number:</label>
+            <input type="text" id="ssn" name="ssn" required>
+
+            <label for="drivers-license">Drivers License Number:</label>
+            <input type="text" id="drivers-license" name="drivers-license" required>
+
+            <button type="submit">Proceed to Checkout</button>
+        </form>
+     </section>
+    </div>
+
+     <footer>
+        <p>&copy: 2024 Outdoorsman Store. All rights reserved.</p>
+     </footer>
+</html>
