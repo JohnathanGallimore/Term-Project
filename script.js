@@ -83,3 +83,4 @@ function checkout(event){
     alert("Checkout functionality will go here");
 }
 document.querySelector('form').addEventListener('submit', checkout);
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Edit Page</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpg" atl="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="bulk-upload.html">Bulk Upload</a></li>
+                <li><a href="product-edit.html">Product Edit</a></li>
+                <li><a href="signout.php">Sign Out</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="product-edit-conatainer">
+        <h2>Product Edit</h2>
+        <div class="search">
+            <input type="text" id="search" placeholder="Search Product or Category">
+            <button id="search-btn">Search</button>
+        </div>
+        <div class="product-list">
+            <div class="product-item" data-id="1">Try Searching for Fishing Rods</div>
+            <div class="product-item" data-id="2">Try Searching for Fishing Reels</div>
+            <div class="product-item" data-id="3">Try Searching for Baits</div>
+        </div>
+        <div class="product-edit">
+            <h3>Edit Product</h3>
+            <form>
+                <div class="form-group">
+                    <label for="productId">Product ID:</label>
+                    <input type="text" id="productId" name="productId" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="productName">Name:</label>
+                    <input type="text" id="productName" name="productName">
+                </div>
+                <div class="form-group">
+                    <label for="productCategory">Category ID:</label>
+                    <input type="text" id="productCategory" name="productCategory">
+                </div>
+                <div class="form-group">
+                    <label for="productDescription">Description:</label>
+                    <textarea id="productDescription" name="productDescription"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="productImagePath">Image Path:</label>
+                    <input type="text" id="productImagePath" name="productImagePath">
+                </div>
+                <div class="form-group">
+                    <label for="productPrice">Price:</label>
+                    <input type="text" id="productPrice" name="productPrice">
+                </div>
+                <div class="form-group">
+                    <button type="submit">Save Changes</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

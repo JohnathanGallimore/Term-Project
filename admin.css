@@ -1,0 +1,44 @@
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+.form-group label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="file"]{
+    display: none;
+}
+
+.form-group, .btn-upload{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.form-group, btn-upload:hover{
+    background-color: #0056b3;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+header img{
+    max-width: 100%;
+    height: auto;
+    max-height: 80vh;
+}

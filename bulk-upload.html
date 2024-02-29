@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulk Upload Page</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpg" atl="Logo">
+        </div>
+    <nav>
+        <ul>
+            <li><a href="bulk-upload.html">Bulk Upload</a></li>
+            <li><a href="product-edit.html">Product Edit</a></li>
+            <li><a href="signout.php">Sign Out</a></li>
+        </ul>
+    </nav>
+    </header>
+    <div class="container">
+        <h2>Bulk Upload Page</h2>
+        <form action="upload.php" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="file">Select File to Upload:</label>
+                <input type="file" id="file" name="file" accept=".json, .csv, .txt" required>
+            </div>
+            <div class="form-group">
+                <p>Example File Format: <a href="example.json" download>example.json</example></a></p>
+                <p>Instructions: Please select a file in JSON, CSV, or TXT format.</p>
+            </div>
+            <div class="form-group">
+                <input type="submit" class="btn-upload" value="Upload File">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
